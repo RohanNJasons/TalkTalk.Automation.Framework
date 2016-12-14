@@ -1,6 +1,5 @@
 ﻿using System;
 using NUnit.Framework;
-using OpenQA.Selenium.Support.Events;
 using TalkTalk.Automation.Framework.Enums;
 using TalkTalk.Automation.Framework.Selenium;
 

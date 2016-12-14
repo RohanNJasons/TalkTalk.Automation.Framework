@@ -62,12 +62,12 @@ namespace TalkTalk.Automation.Framework.Selenium
             return wait.Until(driver => ((IJavaScriptExecutor)driver).ExecuteScript("return document.readyState").Equals("complete"));
         }
 
-    /// <summary>
-    /// Checks to see if the correct page has been loaded
-    /// </summary>
-    /// <param name="elementId">the element that is checked to ensure that the correct page is loaded</param>
-    /// <returns>Returns a true or false</returns>
-    private bool AssertElementIsDisplayed(string elementId)
+        /// <summary>
+        /// Checks to see if the correct page has been loaded
+        /// </summary>
+        /// <param name="elementId">the element that is checked to ensure that the correct page is loaded</param>
+        /// <returns>Returns a true or false</returns>
+        private bool AssertElementIsDisplayed(string elementId)
         {
             const int upper = TimeoutInSeconds.DefaultTimeout;
             for (var i = 0; i < upper; i++)

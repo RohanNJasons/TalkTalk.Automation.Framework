@@ -259,7 +259,6 @@ namespace TalkTalk.Automation.Framework.Selenium
 
         #endregion
 
-
         ///<summary>
         ///Takes screenshot after failed test.
         ///</summary>

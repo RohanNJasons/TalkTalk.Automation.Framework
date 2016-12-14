@@ -71,7 +71,6 @@
     <Compile Include="Selenium\BasePage.cs" />
     <Compile Include="Selenium\SetTimeout.cs" />
     <Compile Include="Selenium\TestBase.cs" />
-    <Compile Include="Test_DeleteMeBeforePkging\Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
