@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TalkTalk.Automation.Framework", "TalkTalk.Automation.Framework\TalkTalk.Automation.Framework.csproj", "{25A2FA59-2FAC-4AEB-9FC2-C69C8A47C63D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{C29E2FC9-8B26-4A83-9B38-34EA057C1A53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{54B594D6-D1F7-4DDB-9BD3-A9EF6EBFC1F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25A2FA59-2FAC-4AEB-9FC2-C69C8A47C63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A2FA59-2FAC-4AEB-9FC2-C69C8A47C63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A2FA59-2FAC-4AEB-9FC2-C69C8A47C63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A2FA59-2FAC-4AEB-9FC2-C69C8A47C63D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54B594D6-D1F7-4DDB-9BD3-A9EF6EBFC1F6} = {C29E2FC9-8B26-4A83-9B38-34EA057C1A53}
+	EndGlobalSection
+EndGlobal
